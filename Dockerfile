@@ -67,7 +67,7 @@ RUN unzip ip2as.zip \
     && cp perl-ip2as-master/ip2as.pm /usr/lib/perl5/core_perl/ \
     && rm -Rf perl-ip2as-master
 
-ADD https://github.com/manuelkasper/AS-Stats/archive/master.zip master.zip
+ADD https://github.com/pv2b/AS-Stats/archive/master.zip master.zip
 RUN unzip master.zip \
     && mv AS-Stats-master AS-Stats \
     && rm master.zip
